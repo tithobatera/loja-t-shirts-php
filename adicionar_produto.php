@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
+$username = "";
 $password = "";
-$dbname = "cadastrodb";
+$dbname = "";
 
 session_start(); // Inicia a sessão
 
