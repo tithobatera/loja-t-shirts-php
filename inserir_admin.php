@@ -1,9 +1,9 @@
 <?php
 // Conexão com o banco de dados MySQL
 $host = "localhost";
-$user = "root";
-$password = "Titho@1810";
-$dbname = "cadastrodb";
+$user = "";
+$password = "";
+$dbname = "";
 
 $conn = new mysqli($host, $user, $password, $dbname);
 
