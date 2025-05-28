@@ -3,9 +3,9 @@ session_start();
 
 // Dados de conexão com o banco de dados
 $servername = "localhost";
-$username = "root";
+$username = "";
 $password = "";
-$dbname = "cadastrodb";
+$dbname = "";
 
 // Criar conexão
 $conn = new mysqli($servername, $username, $password, $dbname);
