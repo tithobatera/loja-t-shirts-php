@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";  // Alterar se necessário
+$username = "";  // Alterar se necessário
 $password = "";  // Alterar se necessário
-$dbname = "cadastrodb";
+$dbname = "";
 
 // Criar a conexão MySQLi
 $conn = new mysqli($servername, $username, $password, $dbname);
