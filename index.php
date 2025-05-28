@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';  // ou o endereço do seu servidor de banco de dados
-$dbname = 'cadastrodb';  // nome do seu banco de dados
-$username = 'root';    // seu nome de usuário do banco de dados
-$password = 'Titho@1810';        // sua senha do banco de dados
+$dbname = '';  // nome do seu banco de dados
+$username = '';    // seu nome de usuário do banco de dados
+$password = '';        // sua senha do banco de dados
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
